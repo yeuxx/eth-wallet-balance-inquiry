@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Cüzdan Bakiyeleri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ethereum Cüzdan Bakiyeleri</h2>
+        <form id="walletForm">
+            <label for="walletAddress">Ethereum Cüzdan Adresi:</label>
+            <input type="text" id="walletAddress" name="walletAddress" required>
+            <button type="button" onclick="getBalances()">Bakiyeleri Göster</button>
+        </form>
+
+        <div id="balanceResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
